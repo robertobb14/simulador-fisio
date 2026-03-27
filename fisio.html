@@ -118,9 +118,11 @@ async function cargarPreguntas() {
 
   preguntas = todas.slice(0, limite);
 
-  respuestas = []; // reset de respuestas guardadas
+  respuestas = [];
   index = 0;
   aciertos = 0;
+
+  document.getElementById("resumenFinal")?.remove();
 
   mostrarPregunta();
 }
@@ -160,31 +162,56 @@ document.getElementById("opciones").addEventListener("change", (e) => {
   }
 });
 
+// CORREGIR TODO EL EXAMEN + RESUMEN FINAL
 document.getElementById("corregir").onclick = () => {
-  const q = preguntas[index];
-  const seleccion = document.querySelector("input[name='opt']:checked");
+  let totalAciertos = 0;
 
-  if (!seleccion) {
-    alert("Selecciona una opción");
-    return;
+  for (let i = 0; i < preguntas.length; i++) {
+    if (respuestas[i] === preguntas[i].correcta) {
+      totalAciertos++;
+    }
   }
 
-  const correcta = q.correcta;
-  const labels = document.querySelectorAll("#opciones label");
+  // Crear resumen final
+  const resumen = document.createElement("div");
+  resumen.id = "resumenFinal";
+  resumen.style.marginTop = "30px";
+  resumen.style.padding = "20px";
+  resumen.style.background = "#fff";
+  resumen.style.borderRadius = "8px";
+  resumen.style.border = "1px solid #ccc";
 
-  labels.forEach(l => {
-    const val = l.querySelector("input").value;
-    if (val === correcta) l.classList.add("correct");
-    if (val === seleccion.value && val !== correcta) l.classList.add("incorrect");
+  let html = `<h2>Resumen del examen</h2>`;
+  html += `<p><strong>Aciertos:</strong> ${totalAciertos} / ${preguntas.length}</p>`;
+  html += `<hr>`;
+
+  preguntas.forEach((p, i) => {
+    const marcada = respuestas[i] ?? "(sin responder)";
+    const correcta = p.correcta;
+    const ok = marcada === correcta;
+
+    html += `
+      <div style="margin-bottom: 12px;">
+        <strong>Pregunta ${i + 1}:</strong> ${p.pregunta}<br>
+        <strong>Tu respuesta:</strong> ${marcada}<br>
+        <strong>Correcta:</strong> ${correcta}<br>
+        <span style="color:${ok ? "green" : "red"};">
+          ${ok ? "✔ Correcto" : "✘ Incorrecto"}
+        </span>
+      </div>
+      <hr>
+    `;
   });
 
-  if (seleccion.value === correcta) {
-    document.getElementById("feedback").textContent = "¡Correcto!";
-    aciertos++;
-  } else {
-    document.getElementById("feedback").textContent =
-      "Incorrecto. La correcta es: " + correcta;
-  }
+  resumen.innerHTML = html;
+
+  // Eliminar resumen anterior si existe
+  document.getElementById("resumenFinal")?.remove();
+
+  // Insertar resumen al final de la tarjeta
+  document.querySelector(".card").appendChild(resumen);
+
+  alert("Resultado: " + totalAciertos + " / " + preguntas.length);
 };
 
 document.getElementById("siguiente").onclick = () => {
@@ -212,6 +239,7 @@ document.getElementById("reiniciar").onclick = () => {
 
 cargarPreguntas();
 </script>
+
 
 </body>
 </html>
