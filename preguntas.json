@@ -1,0 +1,113 @@
+[
+  {
+    "id": 1,
+    "pregunta": "Las manipulaciones son técnicas que se engloban dentro de:",
+    "opciones": {
+      "a": "Cinesiterapia pasiva.",
+      "b": "Cinesiterapia activa.",
+      "c": "Cinesiterapia forzada.",
+      "d": "Ninguna de las anteriores."
+    },
+    "correcta": "a"
+  },
+  {
+    "id": 2,
+    "pregunta": "Todas las siguientes MENOS UNA pueden causar restricción de la movilidad pasiva:",
+    "opciones": {
+      "a": "Contractura.",
+      "b": "Edema intraarticular.",
+      "c": "Bloqueo mecánico.",
+      "d": "Debilidad muscular."
+    },
+    "correcta": "d"
+  },
+  {
+    "id": 3,
+    "pregunta": "La actividad muscular en la que el movimiento es superior a la resistencia, se conoce como:",
+    "opciones": {
+      "a": "Trabajo estático.",
+      "b": "Trabajo dinámico concéntrico.",
+      "c": "Trabajo dinámico excéntrico.",
+      "d": "Trabajo isométrico."
+    },
+    "correcta": "b"
+  },
+  {
+    "id": 4,
+    "pregunta": "Con relación a los principios de realización de los estiramientos músculotendinosos, señale la respuesta FALSA:",
+    "opciones": {
+      "a": "Se deben respetar los grados de libertad articulares.",
+      "b": "No provocar dolor.",
+      "c": "No es necesaria una preparación tisular previa.",
+      "d": "Se elonga la musculatura de forma progresiva."
+    },
+    "correcta": "c"
+  },
+  {
+    "id": 5,
+    "pregunta": "Indique cuál de las siguientes técnicas de tratamiento NO se considera dentro de la mecanoterapia:",
+    "opciones": {
+      "a": "Terapia con poleas.",
+      "b": "Terapia de suspensión.",
+      "c": "Terapia con inmovilización mediante férulas y yesos.",
+      "d": "Terapia con resortes."
+    },
+    "correcta": "c"
+  },
+  {
+    "id": 6,
+    "pregunta": "En las tracciones vertebrales, señale cuál de las siguientes NO es una CONTRAINDICACIÓN ABSOLUTA:",
+    "opciones": {
+      "a": "Lesión o inflamación aguda.",
+      "b": "Protusión discal medial.",
+      "c": "Hipermovilidad o inestabilidad articular.",
+      "d": "Aumento de los síntomas distales."
+    },
+    "correcta": "b"
+  },
+  {
+    "id": 7,
+    "pregunta": "La aplicación de la bomba de compresión neumática intermitente en el tratamiento del edema, está INDICADA en:",
+    "opciones": {
+      "a": "Tromboflebitis.",
+      "b": "Insuficiencia cardiaca o edema pulmonar.",
+      "c": "Infección cutánea local aguda.",
+      "d": "Edema por retención de sodio y agua."
+    },
+    "correcta": "d"
+  },
+  {
+    "id": 8,
+    "pregunta": "¿Cuál de los siguientes agentes físicos es el MÁS INDICADO para aumentar el flujo sanguíneo, la tasa metabólica y la extensibilidad de los tejidos blandos, a nivel superficial?",
+    "opciones": {
+      "a": "Vendaje elástico.",
+      "b": "Ultrasonido.",
+      "c": "Bolsa caliente (hot pack).",
+      "d": "Bolsa de hielo (cold pack)."
+    },
+    "correcta": "c"
+  },
+  {
+    "id": 9,
+    "pregunta": "Con relación a la crioterapia, indique qué afirmación de las siguientes es FALSA:",
+    "opciones": {
+      "a": "La crioterapia disminuye el umbral del dolor, aumentando la sensación nociceptiva.",
+      "b": "Al aplicar frío sobre la piel se origina una vasoconstricción inmediata.",
+      "c": "Cuando desciende la temperatura del nervio periférico disminuye la velocidad de conducción nerviosa.",
+      "d": "La crioterapia puede disminuir temporalmente la espasticidad."
+    },
+    "correcta": "a"
+  },
+  {
+    "id": 10,
+    "pregunta": "¿Cuál de las siguientes NO es una CONTRAINDICACIÓN ABSOLUTA para el uso de la termoterapia?",
+    "opciones": {
+      "a": "Deterioro de la sensibilidad.",
+      "b": "Tromboflebitis.",
+      "c": "Tumor maligno.",
+      "d": "Embarazo."
+    },
+    "correcta": "d"
+  }
+]
+
