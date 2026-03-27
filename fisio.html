@@ -60,6 +60,12 @@
 <div class="card">
   <h1>Simulador Examen Fisioterapeuta</h1>
 
+  <!-- Selector de modo aleatorio -->
+  <label>
+    <input type="checkbox" id="modoAleatorio">
+    Orden aleatorio
+  </label>
+
   <h3 id="num"></h3>
   <p id="pregunta"></p>
 
@@ -70,6 +76,7 @@
   <button id="corregir">Corregir</button>
   <button id="siguiente">Siguiente</button>
   <button id="anterior">Anterior</button>
+  <button id="reiniciar">Reiniciar</button>
 </div>
 
 <script>
@@ -80,12 +87,21 @@ let aciertos = 0;
 async function cargarPreguntas() {
   const res = await fetch("preguntas.json");
   preguntas = await res.json();
+
+  const aleatorio = document.getElementById("modoAleatorio").checked;
+
+  if (aleatorio) {
+    preguntas = preguntas.sort(() => Math.random() - 0.5);
+  }
+
+  index = 0;
+  aciertos = 0;
   mostrarPregunta();
 }
 
 function mostrarPregunta() {
   const q = preguntas[index];
-  document.getElementById("num").textContent = "Pregunta " + q.id;
+  document.getElementById("num").textContent = "Pregunta " + q.id + " de " + preguntas.length;
   document.getElementById("pregunta").textContent = q.pregunta;
 
   const cont = document.getElementById("opciones");
@@ -93,6 +109,7 @@ function mostrarPregunta() {
 
   for (const letra in q.opciones) {
     const label = document.createElement("label");
+    label.className = ""; // limpiar estilos previos
     label.innerHTML = `
       <input type="radio" name="opt" value="${letra}">
       ${letra}) ${q.opciones[letra]}
@@ -146,6 +163,10 @@ document.getElementById("anterior").onclick = () => {
   } else {
     alert("Estás en la primera pregunta");
   }
+};
+
+document.getElementById("reiniciar").onclick = () => {
+  cargarPreguntas();
 };
 
 cargarPreguntas();
