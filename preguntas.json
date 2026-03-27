@@ -2200,7 +2200,1285 @@
       "d": "Hipertonía y arreflexia."
     },
     "correcta": "a"
+  },
+  {
+    "id": 201,
+    "pregunta": "En una lesión neurológica periférica podemos observar, indique la respuesta CORRECTA:",
+    "opciones": {
+      "a": "Hipotonía, atrofia, hiporreflexia y arreflexia.",
+      "b": "Hipertonía, trofismo conservado e hiperreflexia.",
+      "c": "Hipotonía y trofismo conservado.",
+      "d": "Hipertonía y arreflexia."
+    },
+    "correcta": "a"
+  },
+  {
+    "id": 202,
+    "pregunta": "En un síndrome cerebeloso podemos observar, señale la respuesta INCORRECTA:",
+    "opciones": {
+      "a": "Ataxia y alteración del equilibrio.",
+      "b": "Temblor intencional.",
+      "c": "Hipertonía.",
+      "d": "Hipotonía."
+    },
+    "correcta": "c"
+  },
+  {
+    "id": 203,
+    "pregunta": "En un síndrome de los ganglios basales podemos observar, señale la respuesta INCORRECTA:",
+    "opciones": {
+      "a": "Reflejos osteotendinosos normales.",
+      "b": "Amiotrofia y debilidad.",
+      "c": "Hipocinesia.",
+      "d": "Movimientos anormales e involuntarios."
+    },
+    "correcta": "b"
+  },
+  {
+    "id": 204,
+    "pregunta": "En casos de afectación neurológica con déficit de deglución, señale la respuesta INCORRECTA:",
+    "opciones": {
+      "a": "La flexión anterior del cuello protege la vía aérea.",
+      "b": "La extensión cervical permite un tránsito lento del bolo.",
+      "c": "Es importante la textura de los líquidos.",
+      "d": "La inclinación lateral induce el paso contralateral del bolo."
+    },
+    "correcta": "d"
+  },
+  {
+    "id": 205,
+    "pregunta": "La estimulación del nervio tibial posterior está indicada en, indique la respuesta INCORRECTA:",
+    "opciones": {
+      "a": "Casos de hiperactividad vesical.",
+      "b": "Casos de hipotonía del suelo pélvico.",
+      "c": "Disfunciones de vaciado no obstructivas.",
+      "d": "Dolor pélvico crónico."
+    },
+    "correcta": "b"
+  },
+  {
+    "id": 206,
+    "pregunta": "La incontinencia urinaria de esfuerzo, indique la respuesta INCORRECTA:",
+    "opciones": {
+      "a": "Se asocia a obesidad, parto y estreñimiento.",
+      "b": "Los deportes de impacto no están asociados.",
+      "c": "Se produce cuando la presión intravesical supera a la uretral.",
+      "d": "La frecuencia miccional no se altera."
+    },
+    "correcta": "b"
+  },
+  {
+    "id": 207,
+    "pregunta": "Las causas que motivan la limitación articular en las fracturas de rodilla son:",
+    "opciones": {
+      "a": "Retracción de los alerones rotulianos.",
+      "b": "Retracción y atrofia del cuádriceps.",
+      "c": "Sínfisis del fondo de saco subcuadricipital.",
+      "d": "a) b) y c) son correctas."
+    },
+    "correcta": "d"
+  },
+  {
+    "id": 208,
+    "pregunta": "Señale la respuesta CORRECTA respecto a las fracturas distales del húmero:",
+    "opciones": {
+      "a": "Existe mayor riesgo de lesión del nervio cubital.",
+      "b": "Existe mayor riesgo de lesión del nervio radial.",
+      "c": "Existe mayor riesgo de lesión del nervio mediano.",
+      "d": "Existe mayor riesgo de lesión del nervio circunflejo."
+    },
+    "correcta": "a"
+  },
+  {
+    "id": 209,
+    "pregunta": "La consolidación de las fracturas de clavícula se produce en:",
+    "opciones": {
+      "a": "3-4 semanas.",
+      "b": "3-4 días.",
+      "c": "3-4 meses.",
+      "d": "Ninguna es cierta."
+    },
+    "correcta": "a"
+  },
+  {
+    "id": 210,
+    "pregunta": "Señale la respuesta CORRECTA con relación a las fracturas óseas:",
+    "opciones": {
+      "a": "Las fracturas directas se producen a distancia del traumatismo.",
+      "b": "Las fracturas por estrés se producen siempre en hueso patológico.",
+      "c": "Las fracturas incompletas no abarcan todo el espesor del hueso.",
+      "d": "Todas las anteriores son FALSAS."
+    },
+    "correcta": "c"
+  },
+  {
+    "id": 211,
+    "pregunta": "¿Cuál de las afirmaciones relacionadas con la formación del callo de fractura es VERDADERA?",
+    "opciones": {
+      "a": "La fase de inflamación limpia el foco de fractura.",
+      "b": "La fase de remodelación es anterior a la de reparación.",
+      "c": "En la fase de inflamación se forma el callo blando.",
+      "d": "La fase de remodelación dura 2–6 semanas."
+    },
+    "correcta": "a"
+  },
+  {
+    "id": 212,
+    "pregunta": "La miositis osificante:",
+    "opciones": {
+      "a": "Es una calcificación heterotópica.",
+      "b": "Ocurre cuando osteoclastos forman hueso en el coágulo.",
+      "c": "Nunca precisa tratamiento quirúrgico.",
+      "d": "a) b) y c) son correctas."
+    },
+    "correcta": "a"
+  },
+  {
+    "id": 213,
+    "pregunta": "¿Qué articulación valora el test de McCarthy?",
+    "opciones": {
+      "a": "Rodilla.",
+      "b": "Codo.",
+      "c": "Articulaciones intervertebrales.",
+      "d": "Cadera."
+    },
+    "correcta": "d"
+  },
+  {
+    "id": 214,
+    "pregunta": "¿Cuál es la lesión nerviosa más frecuente en fracturas acetabulares de cadera?",
+    "opciones": {
+      "a": "Lesión del nervio femoral.",
+      "b": "Lesión de la raíz L5 del tibial.",
+      "c": "Lesión del nervio ciático.",
+      "d": "Menos del 1% presentan lesión nerviosa."
+    },
+    "correcta": "c"
+  },
+  {
+    "id": 215,
+    "pregunta": "¿Cuál de las siguientes es una característica de los esguinces de Grado II?",
+    "opciones": {
+      "a": "Elongación sin rotura.",
+      "b": "Rotura completa.",
+      "c": "Microdesgarros menores a un tercio.",
+      "d": "Desgarro de uno a dos tercios."
+    },
+    "correcta": "d"
+  },
+  {
+    "id": 216,
+    "pregunta": "La fase de remodelación de las lesiones musculares:",
+    "opciones": {
+      "a": "Es igual a la fase de proliferación.",
+      "b": "Reorganiza fibras según líneas de tracción.",
+      "c": "Se da entre días 30 y 50 post-lesión.",
+      "d": "Todas son verdaderas."
+    },
+    "correcta": "d"
+  },
+  {
+    "id": 217,
+    "pregunta": "En la Prueba de Yocum:",
+    "opciones": {
+      "a": "El brazo se coloca en abducción de 90°.",
+      "b": "Se busca debilidad en rotación externa.",
+      "c": "La mano se coloca sobre el hombro contrario.",
+      "d": "Todas son falsas, valora la cadera."
+    },
+    "correcta": "c"
+  },
+  {
+    "id": 218,
+    "pregunta": "Las corrientes de baja frecuencia:",
+    "opciones": {
+      "a": "Son inferiores a 1.000 Hz.",
+      "b": "Son inferiores a 1.000 Hz con pulsos de hasta 150 μs.",
+      "c": "Deben aplicarse siempre con electrodos autoadhesivos.",
+      "d": "Están entre 1 y 10.000 Hz."
+    },
+    "correcta": "b"
+  },
+  {
+    "id": 219,
+    "pregunta": "La electroterapia para lesiones del nervio periférico debe realizarse con:",
+    "opciones": {
+      "a": "Onda rectangular o cuadrangular.",
+      "b": "Onda triangular o exponencial.",
+      "c": "Onda sinusoidal.",
+      "d": "Cualquier forma de onda con pulsos de 150–300 μs."
+    },
+    "correcta": "b"
+  },
+  {
+    "id": 220,
+    "pregunta": "La onda corta:",
+    "opciones": {
+      "a": "Utiliza radiación ionizante.",
+      "b": "Utiliza frecuencias entre 150 y 3.000 Hz.",
+      "c": "No tiene contraindicaciones.",
+      "d": "Utiliza una frecuencia de 27,12 MHz."
+    },
+    "correcta": "d"
+  },
+  {
+    "id": 221,
+    "pregunta": "Tras una fractura, la pseudoartrosis hipertrófica:",
+    "opciones": {
+      "a": "No se ve en radiografía.",
+      "b": "Se produce por hipermovilidad del foco.",
+      "c": "Cursa con síndrome infeccioso.",
+      "d": "Tiene vascularización insuficiente."
+    },
+    "correcta": "b"
+  },
+  {
+    "id": 222,
+    "pregunta": "En el impingement glenohumeral están implicados:",
+    "opciones": {
+      "a": "Supraespinoso y porción larga del bíceps.",
+      "b": "Supraespinoso y deltoides medio.",
+      "c": "Supraespinoso y porción corta del bíceps.",
+      "d": "Porciones larga y corta del bíceps."
+    },
+    "correcta": "a"
+  },
+  {
+    "id": 223,
+    "pregunta": "El proceso de ligamentización se produce:",
+    "opciones": {
+      "a": "En reconstrucción parcial de un ligamento.",
+      "b": "Tras administración de plasma rico en plaquetas.",
+      "c": "En las ligamentoplastias.",
+      "d": "Tras administración de células madre."
+    },
+    "correcta": "c"
+  },
+  {
+    "id": 224,
+    "pregunta": "Los signos del dolor neuropático de un nervio periférico son:",
+    "opciones": {
+      "a": "Dolor a la movilización transversal del músculo inervado.",
+      "b": "Dolor a la palpación del nervio.",
+      "c": "Coloración azulada del tejido inervado.",
+      "d": "Aumento del dolor en todo el miembro."
+    },
+    "correcta": "b"
+  },
+  {
+    "id": 225,
+    "pregunta": "Señale la respuesta CORRECTA respecto a la palpación diagnóstica de lesiones miofasciales:",
+    "opciones": {
+      "a": "La banda tensa solo se percibe en musculatura profunda.",
+      "b": "El dolor a la palpación es difuso y poco evidente.",
+      "c": "La respuesta de espasmo local es característica.",
+      "d": "Se percibe un acortamiento de las bandas Z."
+    },
+    "correcta": "c"
+  },
+  {
+    "id": 226,
+    "pregunta": "Una correcta contracción activa del suelo pélvico ha de incluir:",
+    "opciones": {
+      "a": "Un ascenso vaginal.",
+      "b": "La contracción de la musculatura glútea.",
+      "c": "Una inspiración previa.",
+      "d": "La maniobra de Valsalva."
+    },
+    "correcta": "a"
+  },
+  {
+    "id": 227,
+    "pregunta": "Tras una artroplastia de hombro, las rotaciones contra resistencia se incorporan al tratamiento:",
+    "opciones": {
+      "a": "Desde el primer momento.",
+      "b": "Al sexto día.",
+      "c": "A partir de la segunda semana.",
+      "d": "A partir de la sexta semana."
+    },
+    "correcta": "d"
+  },
+  {
+    "id": 228,
+    "pregunta": "En el síndrome cerebeloso NO encontramos:",
+    "opciones": {
+      "a": "Ataxia.",
+      "b": "Dismetría.",
+      "c": "Fasciculaciones.",
+      "d": "Temblor intencional."
+    },
+    "correcta": "c"
+  },
+  {
+    "id": 229,
+    "pregunta": "Para una evaluación cuantitativa de la marcha se puede emplear:",
+    "opciones": {
+      "a": "El test de Tinetti.",
+      "b": "El test de Phalen.",
+      "c": "El test de MoCA.",
+      "d": "El test de alcance funcional."
+    },
+    "correcta": "a"
+  },
+  {
+    "id": 230,
+    "pregunta": "La técnica postural de rotación cervical durante la deglución favorece:",
+    "opciones": {
+      "a": "La apertura del espacio de las valléculas.",
+      "b": "El cierre del espacio de las valléculas.",
+      "c": "El cierre de la vía aérea.",
+      "d": "El paso del bolo por el lado contralateral a la rotación."
+    },
+    "correcta": "d"
+  },
+  {
+    "id": 231,
+    "pregunta": "Las directrices generales de Fisioterapia en las alteraciones de la marcha en el Parkinson incluyen:",
+    "opciones": {
+      "a": "Los cambios posturales.",
+      "b": "La colocación de las manos en la cintura.",
+      "c": "El acortamiento de los pasos.",
+      "d": "La adaptación de la marcha a distintos ritmos."
+    },
+    "correcta": "d"
+  },
+  {
+    "id": 232,
+    "pregunta": "En las lesiones de la vía corticoespinal encontramos:",
+    "opciones": {
+      "a": "Reflejos cutáneoabdominales preservados.",
+      "b": "Signo de Babinski.",
+      "c": "Espasticidad en navaja.",
+      "d": "Clonus del sóleo."
+    },
+    "correcta": "b"
+  },
+  {
+    "id": 233,
+    "pregunta": "En la valoración de personas con hemiplejia, es FALSO que:",
+    "opciones": {
+      "a": "El nivel de conciencia puede variar desde alerta a coma profundo.",
+      "b": "La sensibilidad afectada es exclusivamente la profunda.",
+      "c": "Puede haber afasias y disartrias.",
+      "d": "Los músculos con mayor representación cortical tienen mayor afectación."
+    },
+    "correcta": "b"
+  },
+  {
+    "id": 234,
+    "pregunta": "La afirmación CORRECTA sobre el tratamiento rehabilitador de las lesiones nerviosas periféricas es:",
+    "opciones": {
+      "a": "La electroestimulación evita por completo la atrofia por denervación.",
+      "b": "Los objetivos dependen del tiempo evolutivo.",
+      "c": "Las técnicas se aplican progresivamente hasta el reforzamiento muscular tras reinervación.",
+      "d": "b) y c) son correctas."
+    },
+    "correcta": "d"
+  },
+  {
+    "id": 235,
+    "pregunta": "¿Cuál de estos NO es un método de fisioterapia empleado en la parálisis cerebral?",
+    "opciones": {
+      "a": "Petö.",
+      "b": "Dimeglio.",
+      "c": "Vojta.",
+      "d": "Bobath."
+    },
+    "correcta": "b"
+  },
+  {
+    "id": 236,
+    "pregunta": "Respecto a las prótesis para amputación de miembro inferior, señale la afirmación CORRECTA:",
+    "opciones": {
+      "a": "Las prótesis inmediatas se colocan cuando el muñón ya está cicatrizado.",
+      "b": "La succión no es válida por encima de la rodilla.",
+      "c": "La KBM bordea los cóndilos femorales y deja libre la rótula.",
+      "d": "La PTB es la menos utilizada."
+    },
+    "correcta": "c"
+  },
+  {
+    "id": 237,
+    "pregunta": "Señale la opción CORRECTA con relación a la magnetoterapia:",
+    "opciones": {
+      "a": "Regenera hueso si genera electronegatividad suficiente.",
+      "b": "Regenera hueso si genera electropositividad suficiente.",
+      "c": "La regeneración ósea no depende de electronegatividad o electropositividad.",
+      "d": "Todas son incorrectas."
+    },
+    "correcta": "c"
+  },
+  {
+    "id": 238,
+    "pregunta": "¿Cuáles son los movimientos básicos en el drenaje linfático manual según Vodder?",
+    "opciones": {
+      "a": "Círculos fijos, movimiento dador, bombeo y rotatorio.",
+      "b": "Círculos fijos, movimiento dador y bombeo.",
+      "c": "Círculos fijos, bombeo y rotatorio.",
+      "d": "Movimiento dador, bombeo y rotatorio."
+    },
+    "correcta": "a"
+  },
+  {
+    "id": 239,
+    "pregunta": "Para la evaluación global de la motricidad voluntaria se utilizan las siguientes maniobras, EXCEPTO:",
+    "opciones": {
+      "a": "Maniobra de Barré para extremidades superiores.",
+      "b": "Maniobra de Barré para extremidades inferiores.",
+      "c": "Maniobra de Mingazzini.",
+      "d": "Maniobra de Homans."
+    },
+    "correcta": "d"
+  },
+  {
+    "id": 240,
+    "pregunta": "Señale la respuesta CORRECTA con relación a la esterognosia:",
+    "opciones": {
+      "a": "Es la sensación vibratoria.",
+      "b": "Es la capacidad de reconocer presión.",
+      "c": "Es la capacidad de reconocer forma, tamaño y peso.",
+      "d": "Es la capacidad de reconocer posición y movimiento."
+    },
+    "correcta": "c"
+  },
+  {
+    "id": 241,
+    "pregunta": "La lesión del nervio radial por encima del tercio inferior del brazo provoca:",
+    "opciones": {
+      "a": "Incapacidad para extender muñeca y dedos.",
+      "b": "Incapacidad para flexión-abducción-oposición del pulgar.",
+      "c": "Déficit sensitivo del borde cubital de la mano.",
+      "d": "Déficit de interóseos y lumbricales 3º y 4º."
+    },
+    "correcta": "a"
+  },
+  {
+    "id": 242,
+    "pregunta": "¿Qué nervio se lesiona con más frecuencia en luxaciones de hombro y fracturas de cuello humeral?",
+    "opciones": {
+      "a": "Nervio radial.",
+      "b": "Nervio axilar o circunflejo.",
+      "c": "Nervio musculocutáneo.",
+      "d": "Nervio mediano."
+    },
+    "correcta": "b"
+  },
+  {
+    "id": 243,
+    "pregunta": "En violencia de género, señale la respuesta CORRECTA sobre niveles de actuación:",
+    "opciones": {
+      "a": "Detección precoz = prevención primaria.",
+      "b": "Prevención = prevención primaria.",
+      "c": "Intervención profesional = prevención primaria.",
+      "d": "Ninguna es correcta."
+    },
+    "correcta": "b"
+  },
+  {
+    "id": 244,
+    "pregunta": "Señale la respuesta CORRECTA con relación a la clasificación funcional de las fracturas:",
+    "opciones": {
+      "a": "Según etiología pueden ser completas, incompletas y traumáticas.",
+      "b": "Según etiología pueden ser completas, incompletas, estables e inestables.",
+      "c": "Según etiología pueden ser traumáticas, patológicas o por fatiga.",
+      "d": "a) y b) son correctas."
+    },
+    "correcta": "c"
+  },
+  {
+    "id": 245,
+    "pregunta": "Señale la respuesta CORRECTA con relación a la luxación de cadera:",
+    "opciones": {
+      "a": "La luxación posterior es la menos frecuente.",
+      "b": "La luxación anterior es rara y por rotación externa y abducción máximas.",
+      "c": "En la luxación posterior la cabeza queda por delante del cotilo.",
+      "d": "La luxación anterior es la más frecuente."
+    },
+    "correcta": "b"
+  },
+  {
+    "id": 246,
+    "pregunta": "Tipo de personas propensas a desarrollar osteoporosis:",
+    "opciones": {
+      "a": "Mujeres pequeñas, blancas o asiáticas, con antecedentes y edad avanzada.",
+      "b": "Hombres pequeños, negros, con antecedentes y edad avanzada.",
+      "c": "Mujeres grandes, blancas o asiáticas, jóvenes.",
+      "d": "Hombres grandes, blancos o asiáticos, con antecedentes."
+    },
+    "correcta": "a"
+  },
+  {
+    "id": 247,
+    "pregunta": "Tratamiento INDICADO tras inmovilización en acortamiento del tejido muscular en ancianos:",
+    "opciones": {
+      "a": "Inmovilización en estiramiento.",
+      "b": "Ejercicios concéntricos.",
+      "c": "Ejercicios isométricos.",
+      "d": "Ejercicios excéntricos."
+    },
+    "correcta": "a"
+  },
+  {
+    "id": 248,
+    "pregunta": "En la fase de apoyo medio durante la marcha, ¿qué músculo NO interviene?",
+    "opciones": {
+      "a": "Tibial anterior.",
+      "b": "Glúteo medio.",
+      "c": "Cuádriceps.",
+      "d": "Gemelos."
+    },
+    "correcta": "a"
+  },
+  {
+    "id": 249,
+    "pregunta": "La espiración lenta total con glotis abierta (ELTGOL):",
+    "opciones": {
+      "a": "Drena secreciones del pulmón infralateral en decúbito lateral.",
+      "b": "Se trabaja con espiraciones rápidas y cortas.",
+      "c": "Ambas.",
+      "d": "Ninguna."
+    },
+    "correcta": "a"
+  },
+  {
+    "id": 250,
+    "pregunta": "Para soportar en bipedestación el 33% del peso corporal aparente, el nivel del agua debe alcanzar:",
+    "opciones": {
+      "a": "Occipital.",
+      "b": "Esternal.",
+      "c": "Umbilical.",
+      "d": "Trocantérea."
+    },
+    "correcta": "b"
+  },
+   {
+    "id": 251,
+    "pregunta": "El síndrome de Claude Bernard-Hörner se caracteriza por presentar:",
+    "opciones": {
+      "a": "Midriasis-ptosis-enoftalmia.",
+      "b": "Midriasis-ptosis-exoftalmia.",
+      "c": "Ptosis-miosis-enoftalmia.",
+      "d": "Exoftalmia-miosis-ptosis."
+    },
+    "correcta": "c"
+  },
+  {
+    "id": 252,
+    "pregunta": "¿Qué tipo de afectación esperamos encontrar en el síndrome de Brown-Séquard?",
+    "opciones": {
+      "a": "Pérdida de función motora y sensibilidad dolorosa del mismo lado de la lesión y pérdida de sensibilidad propioceptiva y térmica del lado contralateral.",
+      "b": "Pérdida de función motora y sensibilidad propioceptiva del mismo lado de la lesión y pérdida de sensibilidad dolorosa y térmica del lado contralateral.",
+      "c": "Pérdida sensibilidad dolorosa y térmica del mismo lado de la lesión y pérdida de la función motora y sensibilidad propioceptiva del lado contralateral.",
+      "d": "Pérdida sensibilidad propioceptiva y dolorosa del mismo lado de la lesión y pérdida de la función motora y sensibilidad térmica del lado contralateral."
+    },
+    "correcta": "b"
+  },
+  {
+    "id": 253,
+    "pregunta": "En el uso de TENS para el tratamiento del dolor crónico, según la teoría del bloqueo axonal con liberación de endorfinas, se utilizarán generalmente frecuencias:",
+    "opciones": {
+      "a": "Bajas y anchos de impulso largos.",
+      "b": "Altas y anchos de impulso largos.",
+      "c": "Bajas y anchos de impulso cortos.",
+      "d": "Altas y anchos de impulso cortos."
+    },
+    "correcta": "a"
+  },
+  {
+    "id": 254,
+    "pregunta": "Las personas que pueden requerir ventilación mecánica no invasiva de forma crónica son:",
+    "opciones": {
+      "a": "EPOC con hipocapnia.",
+      "b": "Enfermedades neuromusculares.",
+      "c": "Obesidad.",
+      "d": "Todas son ciertas."
+    },
+    "correcta": "d"
+  },
+  {
+    "id": 255,
+    "pregunta": "Patrón postural característico de decorticación de una persona en coma:",
+    "opciones": {
+      "a": "Sinergias de flexión de los miembros superiores y de extensión en los inferiores.",
+      "b": "Sinergias extensoras tanto en miembros superiores como inferiores.",
+      "c": "Sinergias de extensión en miembros superiores y de flexión en miembros inferiores.",
+      "d": "Sinergias de flexión tanto en miembros superiores como inferiores."
+    },
+    "correcta": "a"
+  },
+  {
+    "id": 256,
+    "pregunta": "Indique la respuesta CORRECTA sobre el ejercicio de débito inspiratorio controlado (EDIC):",
+    "opciones": {
+      "a": "Está indicado en procesos que cursan con ocupación de pulmón profundo.",
+      "b": "Se coloca el lado del pulmón a tratar en contacto con la camilla.",
+      "c": "Se utilizan volúmenes pulmonares bajos.",
+      "d": "Todas son correctas."
+    },
+    "correcta": "d"
+  },
+  {
+    "id": 257,
+    "pregunta": "¿En cuáles de las siguientes enfermedades obstructivas está INDICADA la rehabilitación respiratoria?",
+    "opciones": {
+      "a": "Enfermedad pulmonar obstructiva crónica.",
+      "b": "Fibrosis quística.",
+      "c": "Bronquiectasias.",
+      "d": "Todas son correctas."
+    },
+    "correcta": "d"
+  },
+  {
+    "id": 258,
+    "pregunta": "Con relación a los mecanismos de acción de la musculatura respiratoria, indique la respuesta INCORRECTA:",
+    "opciones": {
+      "a": "La contracción del diafragma aumenta la presión intratorácica.",
+      "b": "Los intercostales externos aumentan el área transversal del tórax durante la inspiración.",
+      "c": "Los escalenos elevan las dos primeras costillas durante la inspiración forzada.",
+      "d": "El transverso abdominal desplaza las costillas inferiores medialmente durante la espiración profunda."
+    },
+    "correcta": "a"
+  },
+  {
+    "id": 259,
+    "pregunta": "¿Cuál de las siguientes es una CONTRAINDICACIÓN ABSOLUTA de la punción seca profunda?",
+    "opciones": {
+      "a": "Diabetes.",
+      "b": "Tatuajes.",
+      "c": "Linfadenectomías.",
+      "d": "Fobia a las agujas."
+    },
+    "correcta": "c"
+  },
+  {
+    "id": 260,
+    "pregunta": "Para desencadenar la reptación refleja (método de Vojta), NO es una zona de desencadenamiento principal:",
+    "opciones": {
+      "a": "Epicóndilo medial del húmero del lado nucal.",
+      "b": "Tuberosidad del calcáneo del lado nucal.",
+      "c": "Borde radial distal del lado nucal.",
+      "d": "Cóndilo medial del fémur del lado facial."
+    },
+    "correcta": "d"
+  },
+  {
+    "id": 261,
+    "pregunta": "Señale la opción FALSA respecto a la etiología de la marcha tabética:",
+    "opciones": {
+      "a": "Polineuritis sensitiva.",
+      "b": "Afectación del sistema vestibular.",
+      "c": "Lesiones medulares focales como esclerosis múltiple.",
+      "d": "Neurosífilis."
+    },
+    "correcta": "b"
+  },
+  {
+    "id": 262,
+    "pregunta": "Sobre pie zambo es FALSO:",
+    "opciones": {
+      "a": "Hay flexión plantar excesiva.",
+      "b": "Existe varo del mediopié.",
+      "c": "Presenta abducción del retropié.",
+      "d": "Suele ser de causa neurológica o displasia muscular."
+    },
+    "correcta": "c"
+  },
+  {
+    "id": 263,
+    "pregunta": "Entre las siguientes afirmaciones sobre las lesiones vasculares del cerebro, ¿cuál es INCORRECTA?",
+    "opciones": {
+      "a": "El defecto neurológico depende del tamaño de la arteria ocluida.",
+      "b": "La oclusión de la arteria media produce hemiparesia homolateral.",
+      "c": "La oclusión de la arteria cerebral posterior produce hemianopsia homónima contralateral.",
+      "d": "En la oclusión de la carótida interna puede haber pérdida visual ipsilateral."
+    },
+    "correcta": "b"
+  },
+  {
+    "id": 264,
+    "pregunta": "Con relación a los estiramientos, indique la respuesta INCORRECTA:",
+    "opciones": {
+      "a": "El estiramiento balístico consiste en movimientos rítmicos alternos.",
+      "b": "Se deben situar las estructuras capsulo-ligamentosas en máxima elongación.",
+      "c": "El estiramiento activo activa la musculatura agonista para estirar la antagonista.",
+      "d": "El estiramiento postisométrico se realiza tras una contracción isométrica."
+    },
+    "correcta": "b"
+  },
+  {
+    "id": 265,
+    "pregunta": "Todas menos una puede ser causa de restricción del rango de movilidad activo:",
+    "opciones": {
+      "a": "Adherencia cicatricial.",
+      "b": "Edema intraarticular.",
+      "c": "Hiperlaxitud ligamentosa.",
+      "d": "Debilidad muscular."
+    },
+    "correcta": "c"
+  },
+  {
+    "id": 266,
+    "pregunta": "Señale la respuesta CORRECTA respecto a las características clínicas de la espondilodiscitis:",
+    "opciones": {
+      "a": "Dolor vertebral.",
+      "b": "Deformidad vertebral.",
+      "c": "Puede asociarse a ciática cuando la afectación es lumbar.",
+      "d": "Todas son correctas."
+    },
+    "correcta": "d"
+  },
+  {
+    "id": 267,
+    "pregunta": "La incontinencia urinaria de urgencia, señale la respuesta INCORRECTA:",
+    "opciones": {
+      "a": "Es la pérdida involuntaria de orina asociada a una necesidad imperiosa de evacuar.",
+      "b": "Suele acompañarse de un aumento de la frecuencia miccional.",
+      "c": "Puede deberse a una obstrucción uretral.",
+      "d": "No está relacionada con una hiperactividad del detrusor."
+    },
+    "correcta": "d"
+  },
+  {
+    "id": 268,
+    "pregunta": "Tras una fractura de escápula es necesario fortalecer los músculos:",
+    "opciones": {
+      "a": "Interescapulares.",
+      "b": "Trapecio.",
+      "c": "Serrato mayor.",
+      "d": "Todos son ciertos."
+    },
+    "correcta": "d"
+  },
+  {
+    "id": 269,
+    "pregunta": "Son eficaces para la mejoría del dolor en la capsulitis adhesiva:",
+    "opciones": {
+      "a": "La movilización de Gong.",
+      "b": "Las técnicas de movilización de Maitland.",
+      "c": "La movilización según el Concepto Mulligan.",
+      "d": "Todas las opciones son ciertas."
+    },
+    "correcta": "d"
+  },
+  {
+    "id": 270,
+    "pregunta": "La terapia espejo es utilizada para, señale la respuesta FALSA:",
+    "opciones": {
+      "a": "Mejorar el dolor del miembro fantasma después de amputaciones.",
+      "b": "Mejorar la motricidad de extremidades afectadas tras sufrir un accidente cerebrovascular.",
+      "c": "Producir una ilusión visual y con ello activar áreas cerebrales específicas.",
+      "d": "Realizar movimientos con el lado afecto frente a un espejo, con el objetivo de tener un retorno visual de la calidad del movimiento."
+    },
+    "correcta": "d"
+  },
+  {
+    "id": 271,
+    "pregunta": "Señale la respuesta CORRECTA con relación a las prendas de compresión en el linfedema:",
+    "opciones": {
+      "a": "Se deben usar 24 horas al día.",
+      "b": "Se deben renovar anualmente.",
+      "c": "Se debe realizar una medición para su prescripción.",
+      "d": "Se deben usar sobre heridas o celulitis."
+    },
+    "correcta": "c"
+  },
+  {
+    "id": 272,
+    "pregunta": "El síndrome parkinsoniano se caracteriza por presentar al menos dos de los siguientes rasgos clínicos, indique la respuesta INCORRECTA:",
+    "opciones": {
+      "a": "Hipocinesia y espasticidad.",
+      "b": "Temblor de reposo y rigidez.",
+      "c": "Episodios de congelación y postura en flexión.",
+      "d": "Bradicinesia y rigidez."
+    },
+    "correcta": "a"
+  },
+  {
+    "id": 273,
+    "pregunta": "Una lesión radicular a nivel L3 predominantemente presenta las siguientes características:",
+    "opciones": {
+      "a": "Dolor en la cara interna de la pantorrilla, debilidad en la inversión del pie y extensión de la rodilla y reflejo rotuliano afectado.",
+      "b": "Dolor en la cara interna de la rodilla, debilidad en la flexión de cadera, extensión de la rodilla y aducción de la cadera y reflejo rotuliano afectado.",
+      "c": "Dolor en la cara interna de la rodilla, debilidad en la flexión de cadera, extensión de la rodilla y aducción de la cadera y reflejo cremastérico afectado.",
+      "d": "Dolor en la cara interna de la rodilla, debilidad en la flexión de cadera y aducción de la cadera y ningún reflejo afectado."
+    },
+    "correcta": "b"
+  },
+  {
+    "id": 274,
+    "pregunta": "Respecto a las lesiones traumáticas de los nervios periféricos, es CORRECTO que:",
+    "opciones": {
+      "a": "La neurotmesis es el término que se aplica a la sección incompleta del tronco nervioso.",
+      "b": "La neuropraxia conlleva a una parálisis completa con datos microscópicos de degeneración nerviosa.",
+      "c": "La axonotmesis es el término aplicado a una lesión nerviosa en la que los axones están dañados pero las vainas de tejido conjuntivo permanecen más o menos intactas.",
+      "d": "En la neurotmesis, los síntomas frecuentes son los cambios vasomotores y pérdida parcial de la sensibilidad cutánea."
+    },
+    "correcta": "c"
+  },
+  {
+    "id": 275,
+    "pregunta": "Respecto a los receptores sensitivos y su función asociada, señale la opción CORRECTA:",
+    "opciones": {
+      "a": "Los discos de Merkel detectan tacto y presión.",
+      "b": "Los corpúsculos de Ruffini detectan vibración.",
+      "c": "Los corpúsculos de Pacini detectan estiramiento muscular.",
+      "d": "a) b) y c) son correctas."
+    },
+    "correcta": "a"
+  },
+  {
+    "id": 276,
+    "pregunta": "La persona con síndrome parkinsoniano es CIERTO que:",
+    "opciones": {
+      "a": "No presenta debilidad muscular ni parálisis.",
+      "b": "Un signo característico es el movimiento rítmico involuntario que aumenta durante la acción.",
+      "c": "El temblor en la mandíbula, la cabeza o lengua no repercute en la deglución.",
+      "d": "a) b) y c) son correctas."
+    },
+    "correcta": "a"
+  },
+  {
+    "id": 277,
+    "pregunta": "La lesión del sistema extrapiramidal provoca diferentes clases de movimientos involuntarios como:",
+    "opciones": {
+      "a": "Temblor en reposo.",
+      "b": "Atetosis.",
+      "c": "Distonía.",
+      "d": "a) b) y c) son correctas."
+    },
+    "correcta": "d"
+  },
+  {
+    "id": 278,
+    "pregunta": "Las personas con lesión medular a nivel neurológico C6-C7, señale la opción CORRECTA:",
+    "opciones": {
+      "a": "Conservan los flexores profundos de los dedos y del pulgar.",
+      "b": "No pueden llevarse la mano a la boca.",
+      "c": "Conservan los extensores de la muñeca.",
+      "d": "La mayoría no pueden utilizar el efecto tenodesis."
+    },
+    "correcta": "c"
+  },
+  {
+    "id": 279,
+    "pregunta": "Respecto a una lesión de los tractos ascendentes dentro de la médula espinal, es CIERTO que:",
+    "opciones": {
+      "a": "La destrucción del fascículo espinotalámico lateral produce pérdida contralateral de la sensibilidad dolorosa y térmica por debajo del nivel de lesión.",
+      "b": "La destrucción del fascículo espinotalámico anterior produce pérdida contralateral de la sensibilidad dolorosa y térmica.",
+      "c": "La destrucción del fascículo grácil y cuneiforme produce pérdida contralateral del tacto leve.",
+      "d": "La destrucción del fascículo espinotalámico lateral interrumpe información propioceptiva."
+    },
+    "correcta": "a"
+  },
+  {
+    "id": 280,
+    "pregunta": "Los síntomas y signos siguientes son característicos de disfunción cerebelosa:",
+    "opciones": {
+      "a": "Aumenta ligeramente la resistencia a los movimientos pasivos.",
+      "b": "Durante la marcha, la persona adopta una base de sustentación amplia.",
+      "c": "El movimiento producido por reflejos tendinosos tiende a continuar más tiempo del habitual.",
+      "d": "En el lado contralateral de la lesión es habitual la disdiadococinesia."
+    },
+    "correcta": "b"
+  },
+  {
+    "id": 281,
+    "pregunta": "Respecto a la enfermedad de Huntington:",
+    "opciones": {
+      "a": "Afecta más a mujeres que a hombres.",
+      "b": "Es una enfermedad hereditaria que suele comenzar en la infancia.",
+      "c": "Es un trastorno extrapiramidal con origen en la corteza motora.",
+      "d": "Los movimientos coreiformes y la demencia progresiva son los síntomas principales."
+    },
+    "correcta": "d"
+  },
+  {
+    "id": 282,
+    "pregunta": "En la esclerosis lateral amiotrófica, es CIERTO que:",
+    "opciones": {
+      "a": "Normalmente tiene carácter hereditario.",
+      "b": "Los signos y síntomas tienen origen exclusivo en la neurona motora superior.",
+      "c": "Pueden afectarse los núcleos motores de algunos pares craneales.",
+      "d": "El control sensitivo se ve afectado de forma progresiva."
+    },
+    "correcta": "c"
+  },
+  {
+    "id": 283,
+    "pregunta": "En la parálisis cerebral de tipo atetoide, los movimientos involuntarios se caracterizan por:",
+    "opciones": {
+      "a": "Ser rápidos o lentos y sin propósito definido.",
+      "b": "Presentarse incluso en reposo.",
+      "c": "Afectar a cualquier parte del cuerpo.",
+      "d": "a) b) y c) son correctas."
+    },
+    "correcta": "d"
+  },
+  {
+    "id": 284,
+    "pregunta": "En la reeducación postural y de la marcha en niños con trastorno motor, un principio terapéutico fundamental es:",
+    "opciones": {
+      "a": "Priorizar siempre la bipedestación aunque el control postural sea deficiente.",
+      "b": "Permitir apoyos pasivos constantes.",
+      "c": "Mantener rodillas en extensión rígida.",
+      "d": "Favorecer distribución simétrica del peso y su desplazamiento anterior."
+    },
+    "correcta": "d"
+  },
+  {
+    "id": 285,
+    "pregunta": "En la infancia, la reacción refleja de garra del pie aparece hasta los:",
+    "opciones": {
+      "a": "10 meses.",
+      "b": "9 meses.",
+      "c": "12 meses.",
+      "d": "18 meses."
+    },
+    "correcta": "c"
+  },
+  {
+    "id": 286,
+    "pregunta": "En la infancia, el reflejo de Moro se caracteriza por:",
+    "opciones": {
+      "a": "Flexión de brazos al rotar la cabeza.",
+      "b": "Extensión y abducción de brazos seguida de aducción ante un estímulo súbito.",
+      "c": "Flexión simétrica de extremidades inferiores al flexionar el tronco.",
+      "d": "Enderezamiento automático del cuello al rotar el tronco."
+    },
+    "correcta": "b"
+  },
+  {
+    "id": 287,
+    "pregunta": "Para facilitar el volteo en niños mediante técnica en decúbito lateral, la contrarrotación de cintura escapular y pelvis busca:",
+    "opciones": {
+      "a": "Provocar un volteo en bloque.",
+      "b": "Estimular una respuesta activa en hombro o pelvis.",
+      "c": "Inhibir movimientos de extremidades.",
+      "d": "Evitar el enderezamiento de la cabeza."
+    },
+    "correcta": "b"
+  },
+  {
+    "id": 288,
+    "pregunta": "La prensión bimanual en niños con trastorno motor puede verse alterada por:",
+    "opciones": {
+      "a": "Falta de control cefálico en línea media.",
+      "b": "Alteración sensorial o visual unilateral.",
+      "c": "Disfunción motora de un miembro superior.",
+      "d": "a) b) y c) son correctas."
+    },
+    "correcta": "d"
+  },
+  {
+    "id": 289,
+    "pregunta": "Respecto al síndrome del niño sacudido, es CIERTO que:",
+    "opciones": {
+      "a": "Los síntomas comunes incluyen letargo, irritabilidad, convulsiones y alteración del tono.",
+      "b": "El mecanismo lesional se debe sobre todo al impacto craneal.",
+      "c": "Las pruebas de neuroimagen suelen ser normales.",
+      "d": "La punción lumbar no es útil."
+    },
+    "correcta": "a"
+  },
+  {
+    "id": 290,
+    "pregunta": "En cuanto a la espina bífida, es CIERTO que:",
+    "opciones": {
+      "a": "La anomalía se produce con mayor frecuencia en la región torácica.",
+      "b": "El tipo mielocele es el más común.",
+      "c": "Puede producirse el fenómeno de Arnold-Chiari.",
+      "d": "a) b) y c) son correctas."
+    },
+    "correcta": "c"
+  },
+  {
+    "id": 291,
+    "pregunta": "En una prótesis para amputados de miembro inferior, el pie SACH:",
+    "opciones": {
+      "a": "No tiene articulación de tobillo.",
+      "b": "El talón almohadillado ayuda en la transición del paso.",
+      "c": "Es la prótesis transtibial más utilizada.",
+      "d": "a) b) y c) son correctas."
+    },
+    "correcta": "d"
+  },
+  {
+    "id": 292,
+    "pregunta": "Respecto a las prótesis del miembro inferior, es CIERTO que:",
+    "opciones": {
+      "a": "El encaje de contención isquiática tiene forma cuadrangular.",
+      "b": "El encaje canadiense en la hemipelvectomía consta de una cesta pélvica abierta anteriormente.",
+      "c": "El encaje tipo UCLA se utiliza exclusivamente en amputaciones transtibiales.",
+      "d": "El encaje canadiense permite más movilidad que el encaje tipo UCLA."
+    },
+    "correcta": "b"
+  },
+  {
+    "id": 293,
+    "pregunta": "Respecto a las prótesis del miembro superior, es CIERTO que:",
+    "opciones": {
+      "a": "El encaje a este nivel suele ser de contacto total, tanto en las prótesis pasivas como funcionales.",
+      "b": "Las prótesis mioeléctricas están provistas de un máximo de cuatro electrodos situados en la placa motora de los músculos antagonistas.",
+      "c": "Las prótesis mioeléctricas están provistas de un máximo de dos electrodos situados en la placa motora de los músculos agonistas.",
+      "d": "Las prótesis pasivas se activan con el movimiento muscular."
+    },
+    "correcta": "a"
+  },
+  {
+    "id": 294,
+    "pregunta": "Cuando se lleva a cabo una osteointegración se realizan dos intervenciones quirúrgicas y, es CIERTO que:",
+    "opciones": {
+      "a": "En la primera intervención se coloca la base del implante dentro del canal medular del hueso.",
+      "b": "La segunda intervención se realiza siempre exactamente a los 2 meses de la primera.",
+      "c": "En la segunda intervención se coloca el implante totalmente preparado para la inmediata colocación de la prótesis.",
+      "d": "Se deben esperar necesariamente 4 meses tras la segunda intervención para comenzar las cargas."
+    },
+    "correcta": "a"
+  },
+  {
+    "id": 295,
+    "pregunta": "En las amputaciones, durante el período preprotésico, ¿qué cuidados son necesarios?",
+    "opciones": {
+      "a": "Cuidado del muñón y aplicación de vendaje compresivo.",
+      "b": "Movilizar todas las articulaciones adyacentes en todo el rango articular.",
+      "c": "Fortalecimiento de la extremidad sana.",
+      "d": "a) b) y c) son correctas."
+    },
+    "correcta": "d"
+  },
+  {
+    "id": 296,
+    "pregunta": "Respecto a las prótesis totales de cadera, es CIERTO que:",
+    "opciones": {
+      "a": "La rehabilitación no puede iniciarse hasta pasados 10 días desde la intervención.",
+      "b": "La enfermedad tromboembólica es una complicación seria durante los 3 meses posteriores.",
+      "c": "El abordaje quirúrgico posterior se asocia a inestabilidad en extensión, abducción y rotación externa.",
+      "d": "El apoyo de carga bilateral se inicia sistemáticamente a partir del día 12."
+    },
+    "correcta": "b"
+  },
+  {
+    "id": 297,
+    "pregunta": "En cuanto a las ortesis de columna, es CIERTO que:",
+    "opciones": {
+      "a": "El collar tipo Philadelphia carece siempre de apoyo occipitomentoniano.",
+      "b": "La ortesis cervicotorácica tipo SOMI proporciona inmovilización completa en todos los planos.",
+      "c": "El corsé de Milwaukee basa su acción en la autoelongación axial.",
+      "d": "El corsé de Michel está indicado preferentemente en escoliosis dorsales altas."
+    },
+    "correcta": "c"
+  },
+  {
+    "id": 298,
+    "pregunta": "De las siguientes opciones, señale cuál NO es una ortesis antiequina:",
+    "opciones": {
+      "a": "Rancho de los amigos.",
+      "b": "Bitutor tipo Klenzack.",
+      "c": "Muelle de Codivilla.",
+      "d": "Férula de Denis-Browne."
+    },
+    "correcta": "d"
+  },
+  {
+    "id": 299,
+    "pregunta": "En las órtesis de deformidades de pie tipo equino y equino-varo en niños, es CORRECTO que:",
+    "opciones": {
+      "a": "Las órtesis deben sobrepasar la rodilla.",
+      "b": "Las órtesis deben tener suelas rígidas.",
+      "c": "Las órtesis deben ser por debajo de la rodilla, con suela elevada y correa que mantenga el talón en contacto.",
+      "d": "Las correas deben ser rígidas pero estrechas."
+    },
+    "correcta": "c"
+  },
+  {
+    "id": 300,
+    "pregunta": "En cuanto a los dispositivos utilizados para mantener la postura correcta en bipedestación en niños, es CIERTO que:",
+    "opciones": {
+      "a": "Las férulas con cinchas para muslos no permiten la sedestación.",
+      "b": "Las férulas por debajo de la rodilla bloquean solo la flexión plantar.",
+      "c": "Los pantalones de abducción no pueden usarse si la aducción es muy pronunciada.",
+      "d": "Estos dispositivos ayudan a la carga de peso y control de tronco."
+    },
+    "correcta": "d"
+  },
+  {
+    "id": 301,
+    "pregunta": "En cuanto a la reeducación de la marcha con bastones, es CIERTO que:",
+    "opciones": {
+      "a": "Los bastones deben colocarse justo delante de cada pie.",
+      "b": "Para subir escaleras: primero el miembro sano, luego bastones y por último el afectado.",
+      "c": "Se retira primero el bastón que acompaña al miembro afectado.",
+      "d": "a) b) y c) son correctas."
+    },
+    "correcta": "b"
+  },
+  {
+    "id": 302,
+    "pregunta": "En la reeducación de la marcha en paralelas, ¿cómo debe girar la persona al final?",
+    "opciones": {
+      "a": "Pivotando sobre el miembro afectado.",
+      "b": "Pivotando sobre el miembro sano.",
+      "c": "Iniciando el giro hacia el miembro afectado.",
+      "d": "Iniciando el giro hacia el miembro sano."
+    },
+    "correcta": "b"
+  },
+  {
+    "id": 303,
+    "pregunta": "En la reeducación de la marcha, ¿qué es lo más importante al pasar a sedestación?",
+    "opciones": {
+      "a": "Inclinarse hacia delante para bajar el centro de gravedad.",
+      "b": "Mantener el tronco bien verticalizado.",
+      "c": "Realizar una rotación hacia el lado dominante.",
+      "d": "Empujar con ambos brazos hacia atrás."
+    },
+    "correcta": "a"
+  },
+  {
+    "id": 304,
+    "pregunta": "Respecto a las hernias discales, es CIERTO que:",
+    "opciones": {
+      "a": "En cervical, los discos más afectados son C5-C6 y C6-C7.",
+      "b": "En lumbar, la raíz más comprimida es L5.",
+      "c": "Una protusión central grande puede producir retención urinaria.",
+      "d": "a) b) y c) son correctas."
+    },
+    "correcta": "d"
+  },
+  {
+    "id": 305,
+    "pregunta": "En cuanto a las pruebas clínicas para hernias cervicales, es CIERTO que:",
+    "opciones": {
+      "a": "La compresión axial está contraindicada en dolor agudo.",
+      "b": "La maniobra de Valsalva disminuye la presión intrarraquídea.",
+      "c": "La distracción cervical se realiza en decúbito supino.",
+      "d": "La compresión axial se realiza en decúbito supino."
+    },
+    "correcta": "a"
+  },
+  {
+    "id": 306,
+    "pregunta": "En la mayoría de programas de cinesiterapia para lumbalgia inespecífica, el objetivo principal es el fortalecimiento de:",
+    "opciones": {
+      "a": "Miembros inferiores.",
+      "b": "Cintura pélvica y tronco.",
+      "c": "Extensores de cadera.",
+      "d": "No está indicado el fortalecimiento."
+    },
+    "correcta": "b"
+  },
+  {
+    "id": 307,
+    "pregunta": "Respecto a la cifosis dorsal, es CIERTO que:",
+    "opciones": {
+      "a": "La cifosis dorsal fisiológica es siempre de 20°.",
+      "b": "El aumento de la curva se centra entre D4 y D6.",
+      "c": "Una causa frecuente de hipercifosis estructural es la enfermedad de Scheuermann.",
+      "d": "a) b) y c) son correctas."
+    },
+    "correcta": "c"
+  },
+  {
+    "id": 308,
+    "pregunta": "El Pectus Excavatum o tórax en embudo se refiere a:",
+    "opciones": {
+      "a": "Depresión en el esternón.",
+      "b": "Prominencia esternal.",
+      "c": "Falta de fusión esternal.",
+      "d": "Anomalía costal."
+    },
+    "correcta": "a"
+  },
+  {
+    "id": 309,
+    "pregunta": "Respecto a la escoliosis, es FALSO que:",
+    "opciones": {
+      "a": "En la escoliosis estructurada existe rotación vertebral.",
+      "b": "La escoliosis no estructurada se corrige inclinando hacia el lado convexo.",
+      "c": "Se considera moderada con un ángulo de Cobb entre 10-20°.",
+      "d": "La escoliosis severa puede causar enfermedad pulmonar restrictiva."
+    },
+    "correcta": "b"
+  },
+  {
+    "id": 310,
+    "pregunta": "Respecto a técnicas de cinesiterapia en escoliosis, es CIERTO que:",
+    "opciones": {
+      "a": "En Schroth el objetivo es potenciar la musculatura transversa del lado de la concavidad.",
+      "b": "En Stagnara la primera etapa se realiza frente a un espejo.",
+      "c": "En Niederhoffer la base es la respiración rotacional correctiva.",
+      "d": "La técnica de Klapp parte del decúbito lateral."
+    },
+    "correcta": "b"
+  },
+  {
+    "id": 311,
+    "pregunta": "En cuanto a patrones sinérgicos secundarios a lesión piramidal, es FALSO que:",
+    "opciones": {
+      "a": "En el patrón flexor de EEII la cadera está en flexión, aducción y rotación externa.",
+      "b": "En el patrón extensor de EEII el tobillo está en flexión plantar e inversión.",
+      "c": "En el patrón extensor de EEII la cadera está en extensión, aducción y rotación interna.",
+      "d": "En el patrón flexor de EEII la rodilla está en flexión."
+    },
+    "correcta": "a"
+  },
+  {
+    "id": 312,
+    "pregunta": "Respecto a la espasticidad, es CIERTO que:",
+    "opciones": {
+      "a": "Se asocia a hiperreflexia osteotendinosa y abolición de reflejos superficiales.",
+      "b": "El comportamiento clínico de espasticidad y rigidez es similar.",
+      "c": "Un estiramiento rápido desencadena aumento brusco de resistencia.",
+      "d": "a) y c) son correctas."
+    },
+    "correcta": "d"
+  },
+  {
+    "id": 313,
+    "pregunta": "¿Cuál es la afección del aparato locomotor más frecuente en países industrializados?",
+    "opciones": {
+      "a": "Dolencias cervicales.",
+      "b": "Afecciones de la zona lumbar.",
+      "c": "Dolencias en extremidades superiores.",
+      "d": "Lesiones de rodilla y cadera."
+    },
+    "correcta": "b"
+  },
+  {
+    "id": 314,
+    "pregunta": "En ergonomía, respecto a la manipulación manual de cargas, ¿a partir de qué peso se considera un objeto como carga?",
+    "opciones": {
+      "a": "5 kg.",
+      "b": "6 kg.",
+      "c": "3 kg.",
+      "d": "10 kg."
+    },
+    "correcta": "c"
+  },
+  {
+    "id": 315,
+    "pregunta": "Señale la afirmación INCORRECTA respecto a los factores de riesgo en el trabajo:",
+    "opciones": {
+      "a": "Levantar carga desde sedestación no debe superar los 5 kg.",
+      "b": "La altura de manipulación debe tenerse en cuenta.",
+      "c": "No se debería empujar o arrastrar cargas de 15 kg.",
+      "d": "Movimiento repetitivo = al menos dos movimientos por minuto."
+    },
+    "correcta": "c"
+  },
+  {
+    "id": 316,
+    "pregunta": "En el trabajo en sedestación, ¿cuál es la postura más adecuada para prevenir molestias musculoesqueléticas?",
+    "opciones": {
+      "a": "Postura sedente media.",
+      "b": "Postura sedente anterior.",
+      "c": "Postura sedente erguida.",
+      "d": "Postura sedente flexionada."
+    },
+    "correcta": "c"
   }
+
+
 
 
  ]
