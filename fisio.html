@@ -100,6 +100,7 @@
 let preguntas = [];
 let index = 0;
 let aciertos = 0;
+let respuestas = []; // ← aquí guardamos la selección de cada pregunta
 
 async function cargarPreguntas() {
   const res = await fetch("preguntas.json");
@@ -108,15 +109,8 @@ async function cargarPreguntas() {
   const aleatorio = document.getElementById("modoAleatorio").checked;
   let limite = parseInt(document.getElementById("limitePreguntas").value, 10);
 
-  // Si el límite no es válido, usar todo el banco
-  if (isNaN(limite) || limite <= 0) {
-    limite = todas.length;
-  }
-
-  // No permitir pedir más de las que hay
-  if (limite > todas.length) {
-    limite = todas.length;
-  }
+  if (isNaN(limite) || limite <= 0) limite = todas.length;
+  if (limite > todas.length) limite = todas.length;
 
   if (aleatorio) {
     todas = todas.sort(() => Math.random() - 0.5);
@@ -124,13 +118,10 @@ async function cargarPreguntas() {
 
   preguntas = todas.slice(0, limite);
 
-  if (preguntas.length === 0) {
-    alert("No hay preguntas para mostrar.");
-    return;
-  }
-
+  respuestas = []; // reset de respuestas guardadas
   index = 0;
   aciertos = 0;
+
   mostrarPregunta();
 }
 
@@ -149,8 +140,11 @@ function mostrarPregunta() {
   for (const letra in q.opciones) {
     const label = document.createElement("label");
     label.className = "";
+
+    const checked = respuestas[index] === letra ? "checked" : "";
+
     label.innerHTML = `
-      <input type="radio" name="opt" value="${letra}">
+      <input type="radio" name="opt" value="${letra}" ${checked}>
       ${letra}) ${q.opciones[letra]}
     `;
     cont.appendChild(label);
@@ -158,6 +152,13 @@ function mostrarPregunta() {
 
   document.getElementById("feedback").textContent = "";
 }
+
+// Guardar selección al marcar una opción
+document.getElementById("opciones").addEventListener("change", (e) => {
+  if (e.target.name === "opt") {
+    respuestas[index] = e.target.value;
+  }
+});
 
 document.getElementById("corregir").onclick = () => {
   const q = preguntas[index];
