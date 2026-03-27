@@ -76,4 +76,126 @@
     <br><br>
 
     <label>
-      Número
+      Número de preguntas:
+      <input type="number" id="limitePreguntas" min="1" max="500" value="50">
+    </label>
+    <br><br>
+
+    <button id="reiniciar">Reiniciar</button>
+  </div>
+
+  <h3 id="num"></h3>
+  <p id="pregunta"></p>
+
+  <div id="opciones"></div>
+
+  <p id="feedback"></p>
+
+  <button id="corregir">Corregir</button>
+  <button id="siguiente">Siguiente</button>
+  <button id="anterior">Anterior</button>
+</div>
+
+<script>
+let preguntas = [];
+let index = 0;
+let aciertos = 0;
+
+async function cargarPreguntas() {
+  const res = await fetch("preguntas.json");
+  let todas = await res.json();
+
+  const aleatorio = document.getElementById("modoAleatorio").checked;
+  const limite = parseInt(document.getElementById("limitePreguntas").value);
+
+  // Mezclar si el usuario lo pide
+  if (aleatorio) {
+    todas = todas.sort(() => Math.random() - 0.5);
+  }
+
+  // Aplicar límite
+  preguntas = todas.slice(0, limite);
+
+  index = 0;
+  aciertos = 0;
+  mostrarPregunta();
+}
+
+function mostrarPregunta() {
+  const q = preguntas[index];
+  document.getElementById("num").textContent = 
+    "Pregunta " + (index + 1) + " de " + preguntas.length;
+
+  document.getElementById("pregunta").textContent = q.pregunta;
+
+  const cont = document.getElementById("opciones");
+  cont.innerHTML = "";
+
+  for (const letra in q.opciones) {
+    const label = document.createElement("label");
+    label.className = ""; // limpiar estilos previos
+    label.innerHTML = `
+      <input type="radio" name="opt" value="${letra}">
+      ${letra}) ${q.opciones[letra]}
+    `;
+    cont.appendChild(label);
+  }
+
+  document.getElementById("feedback").textContent = "";
+}
+
+document.getElementById("corregir").onclick = () => {
+  const q = preguntas[index];
+  const seleccion = document.querySelector("input[name='opt']:checked");
+
+  if (!seleccion) {
+    alert("Selecciona una opción");
+    return;
+  }
+
+  const correcta = q.correcta;
+  const labels = document.querySelectorAll("#opciones label");
+
+  labels.forEach(l => {
+    const val = l.querySelector("input").value;
+    if (val === correcta) l.classList.add("correct");
+    if (val === seleccion.value && val !== correcta) l.classList.add("incorrect");
+  });
+
+  if (seleccion.value === correcta) {
+    document.getElementById("feedback").textContent = "¡Correcto!";
+    aciertos++;
+  } else {
+    document.getElementById("feedback").textContent = 
+      "Incorrecto. La correcta es: " + correcta;
+  }
+};
+
+document.getElementById("siguiente").onclick = () => {
+  index++;
+  if (index >= preguntas.length) {
+    alert("Fin del examen. Aciertos: " + aciertos + "/" + preguntas.length);
+    index = 0;
+    aciertos = 0;
+  }
+  mostrarPregunta();
+};
+
+document.getElementById("anterior").onclick = () => {
+  if (index > 0) {
+    index--;
+    mostrarPregunta();
+  } else {
+    alert("Estás en la primera pregunta");
+  }
+};
+
+document.getElementById("reiniciar").onclick = () => {
+  cargarPreguntas();
+};
+
+cargarPreguntas();
+</script>
+
+</body>
+</html>
