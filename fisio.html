@@ -106,15 +106,28 @@ async function cargarPreguntas() {
   let todas = await res.json();
 
   const aleatorio = document.getElementById("modoAleatorio").checked;
-  const limite = parseInt(document.getElementById("limitePreguntas").value);
+  let limite = parseInt(document.getElementById("limitePreguntas").value, 10);
 
-  // Mezclar si el usuario lo pide
+  // Si el límite no es válido, usar todo el banco
+  if (isNaN(limite) || limite <= 0) {
+    limite = todas.length;
+  }
+
+  // No permitir pedir más de las que hay
+  if (limite > todas.length) {
+    limite = todas.length;
+  }
+
   if (aleatorio) {
     todas = todas.sort(() => Math.random() - 0.5);
   }
 
-  // Aplicar límite
   preguntas = todas.slice(0, limite);
+
+  if (preguntas.length === 0) {
+    alert("No hay preguntas para mostrar.");
+    return;
+  }
 
   index = 0;
   aciertos = 0;
@@ -123,7 +136,9 @@ async function cargarPreguntas() {
 
 function mostrarPregunta() {
   const q = preguntas[index];
-  document.getElementById("num").textContent = 
+  if (!q) return;
+
+  document.getElementById("num").textContent =
     "Pregunta " + (index + 1) + " de " + preguntas.length;
 
   document.getElementById("pregunta").textContent = q.pregunta;
@@ -133,7 +148,7 @@ function mostrarPregunta() {
 
   for (const letra in q.opciones) {
     const label = document.createElement("label");
-    label.className = ""; // limpiar estilos previos
+    label.className = "";
     label.innerHTML = `
       <input type="radio" name="opt" value="${letra}">
       ${letra}) ${q.opciones[letra]}
@@ -166,7 +181,7 @@ document.getElementById("corregir").onclick = () => {
     document.getElementById("feedback").textContent = "¡Correcto!";
     aciertos++;
   } else {
-    document.getElementById("feedback").textContent = 
+    document.getElementById("feedback").textContent =
       "Incorrecto. La correcta es: " + correcta;
   }
 };
